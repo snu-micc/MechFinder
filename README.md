@@ -8,9 +8,7 @@ Implementation of MechFinder developed by Prof. Yousung Jung group at Seoul Nati
 - [Developer](#developer)
 - [Python Dependencies](#python-dependencies)
 - [Installation Guide](#installation-guide)
-- [Data](#data)
-- [Reproduce the results](#reproduce-the-results)
-- [Demo](#demo)
+- [Mechanism labeling](#mechanism-labeling)
 - [Publication](#publication)
 - [License](#license)
 
