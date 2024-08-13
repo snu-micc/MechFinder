@@ -34,7 +34,17 @@ conda activate rdenv
 See `Demo.ipynb` for running instructions and expected output for single and multiple reaction mechanism labeling with MechFinder.
 
 ## Publication
-Under review
-
+```
+@article{chen2024large,
+  title={A large-scale reaction dataset of mechanistic pathways of organic reactions},
+  author={Chen, Shuan and Babazade, Ramil and Kim, Taewan and Han, Sunkyu and Jung, Yousung},
+  journal={Scientific Data},
+  volume={11},
+  number={1},
+  pages={863},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+```
 ## License
 This project is covered under the **MIT License**.
