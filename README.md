@@ -38,6 +38,34 @@ conda activate rdenv
 ## Mechanism labeling
 See `Demo.ipynb` for running instructions and expected output for single and multiple reaction mechanism labeling with MechFinder.
 
+**Note:** The following expected results require the full implementation. The open-source release will raise `NotImplementedError` for core functions.
+
+### Single reaction labeling
+```python
+from MechFinder import MechFinder
+finder = MechFinder(collection_dir='collections')
+
+updated_reaction, LRT, MT_class, electron_path = finder.get_electron_path(sampled_rxn)
+```
+
+Expected output:
+```
+Identified mechanistic class: nucleophilic_attack_to_(thio)carbonyl_or_sulfonyl
+Generated mechanism: [(26, 1), ([1, 9], 9), (9, [9, 1]), ([1, 101], 101)]
+```
+
+### Dataset labeling
+```python
+for rxn in tqdm(dataset_rxns['reaction'], total=len(dataset_rxns)):
+    updated_rxn, LRT, MT_class, electron_path = finder.get_electron_path(rxn)
+```
+
+Expected output:
+```
+100%|█████████████████████████████████████████| 33099/33099 [04:46<00:00, 115.42it/s]
+Labeled 31364 reactions.
+```
+
 ## Publication
 ```
 @article{chen2024large,
