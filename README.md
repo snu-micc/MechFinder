@@ -1,6 +1,6 @@
 # MechFinder
 
-Implementation of MechFinder developed by Prof. Yousung Jung group at Seoul National University (contact: yousung@gmail.com)<br>
+Implementation of MechFinder developed by Prof. Yousung Jung group at Seoul National University (contact: yousung.jung@snu.ac.kr)<br>
 
 
 ## Open-Source Release Notice
@@ -82,4 +82,4 @@ Labeled 31364 reactions.
 ## License
 This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
 
-For commercial licensing inquiries, please contact Shuan Chen (shuan.micc@gmail.com).
+For commercial licensing inquiries, please contact Prof. Yousung Jung (yousung.jung@snu.ac.kr).
